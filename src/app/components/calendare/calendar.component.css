@@ -1,0 +1,22 @@
+.wrap {
+}
+
+.calendar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.calendar_day {
+  align-self: flex-start;
+  flex: 0 0 13%;
+  padding: 3px;
+  border: 1px solid lightgray;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.calendar_day:hover {
+  background: lightyellow;
+}

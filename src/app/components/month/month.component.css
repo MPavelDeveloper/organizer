@@ -1,0 +1,24 @@
+.wrap {
+  margin-bottom: 12px;
+  padding-top: 120px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date__left-arrow, .date__right-arrow  {
+  font-size: 21px;
+  cursor: pointer;
+}
+.date__month {
+  margin: 0 12px;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 21px;
+  background-color: navajowhite;
+  box-shadow: 0 2px 4px lightgray;
+  cursor: pointer;
+}

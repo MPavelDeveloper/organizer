@@ -1,0 +1,15 @@
+.wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pnf-code {
+  margin-bottom: 12px;
+  font-size: 32px;
+}
+
+.pnf-message {
+  font-size: 21px;
+}
